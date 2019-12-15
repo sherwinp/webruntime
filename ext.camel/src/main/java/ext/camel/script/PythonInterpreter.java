@@ -20,7 +20,7 @@ public final class PythonInterpreter {
 
 	public void runScript(String id){
 
-		File script = new File("/home/sherwinp/workspace/ext.camel/src/main/python/main.py");
+		File script = new File("src/main/python/main.py");
 		try {
 			runScript(script);
 		} catch (Exception e) {
